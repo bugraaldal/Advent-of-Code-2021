@@ -1,6 +1,3 @@
-import os
-print(os.getcwd())
-os.chdir("c:/Users/aldal/OneDrive/Masaüstü/Python/Challaneges/AdventOfCode2021/Day01/")
 measurements = []
 with open("Day01.txt", "r") as f:
     data = f.read()
