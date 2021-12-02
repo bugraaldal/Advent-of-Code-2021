@@ -1,10 +1,7 @@
-import os
 horizontal = 0
 depth = 0
 aim = 0
 instructions = []
-print(os.getcwd())
-os.chdir("c:/Users/aldal/OneDrive/Masaüstü/Python/Challaneges/AdventOfCode2021/Day02/")
 with open("Day02.txt", "r") as f:
     data = f.read()
     data = data.splitlines()
